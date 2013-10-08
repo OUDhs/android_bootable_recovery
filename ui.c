@@ -1090,6 +1090,7 @@ void ui_rainbow_mode() {
                             255, 255, 0,      // yellow
                             0, 255, 0,        // green
                             60, 80, 255,      // blue
+			    125, 40, 180,     // indigo 
                             143, 0, 255 };    // violet
 
     gr_color(colors[cur_rainbow_color], colors[cur_rainbow_color+1], colors[cur_rainbow_color+2], 255);
