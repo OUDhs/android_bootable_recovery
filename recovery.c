@@ -961,7 +961,7 @@ main(int argc, char **argv) {
 
     if (!sehandle) {
         fprintf(stderr, "Warning: No file_contexts\n");
-        ui_print("Warning:  No file_contexts\n");
+        ui_print("\n");
     }
 
     LOGI("device_recovery_start()\n");
