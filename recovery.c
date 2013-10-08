@@ -1018,7 +1018,7 @@ main(int argc, char **argv) {
         is_user_initiated_recovery = 1;
         if (!headless) {
             ui_set_show_text(1);
-            ui_set_background(BACKGROUND_ICON_CLOCKWORK);
+            ui_set_background(BACKGROUND_ICON_OUDHS);
         }
 
         if (extendedcommand_file_exists()) {

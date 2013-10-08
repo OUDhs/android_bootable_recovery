@@ -81,13 +81,13 @@ static int boardRepeatableKeys[64], boardNumRepeatableKeys = 0;
 static const struct { gr_surface* surface; const char *name; } BITMAPS[] = {
     { &gBackgroundIcon[BACKGROUND_ICON_INSTALLING], "icon_installing" },
     { &gBackgroundIcon[BACKGROUND_ICON_ERROR],      "icon_error" },
-    { &gBackgroundIcon[BACKGROUND_ICON_CLOCKWORK],  "icon_clockwork" },
+    { &gBackgroundIcon[BACKGROUND_ICON_OUDHS],  "icon_oudhs" },
     { &gBackgroundIcon[BACKGROUND_ICON_CID],  "icon_cid" },
     { &gBackgroundIcon[BACKGROUND_ICON_FIRMWARE_INSTALLING], "icon_firmware_install" },
     { &gBackgroundIcon[BACKGROUND_ICON_FIRMWARE_ERROR], "icon_firmware_error" },
     { &gProgressBarEmpty,               "progress_empty" },
     { &gProgressBarFill,                "progress_fill" },
-    { &gBackground,                "stitch" },
+    { &gBackground,                "background" },
     { NULL,                             NULL },
 };
 
