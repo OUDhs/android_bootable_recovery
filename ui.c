@@ -82,7 +82,7 @@ static const struct { gr_surface* surface; const char *name; } BITMAPS[] = {
     { &gBackgroundIcon[BACKGROUND_ICON_INSTALLING], "icon_installing" },
     { &gBackgroundIcon[BACKGROUND_ICON_ERROR],      "icon_error" },
     { &gBackgroundIcon[BACKGROUND_ICON_OUDHS],  "icon_oudhs" },
-    { &gBackgroundIcon[BACKGROUND_ICON_OUDHS],  "icon_rainbow" },
+    { &gBackgroundIcon[BACKGROUND_ICON_RAINBOW],  "icon_rainbow" },
     { &gBackgroundIcon[BACKGROUND_ICON_CID],  "icon_cid" },
     { &gBackgroundIcon[BACKGROUND_ICON_FIRMWARE_INSTALLING], "icon_firmware_install" },
     { &gBackgroundIcon[BACKGROUND_ICON_FIRMWARE_ERROR], "icon_firmware_error" },
@@ -1292,7 +1292,6 @@ void ui_rainbow_mode() {
                             255, 255, 0,      // yellow
                             0, 255, 0,        // green
                             60, 80, 255,      // blue
-			    125, 40, 180,     // indigo 
                             143, 0, 255 };    // violet
 
     gr_color(colors[cur_rainbow_color], colors[cur_rainbow_color+1], colors[cur_rainbow_color+2], 255);
