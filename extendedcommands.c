@@ -555,19 +555,11 @@ int confirm_selection(const char* title, const char* confirm)
     }
     else {
         char* items[] = { "No",
-                        "No",
-                        "No",
-                        "No",
-                        "No",
-                        "No",
-                        "No",
                         confirm_str, //" Yes -- wipe partition",   // [7]
-                        "No",
-                        "No",
                         "No",
                         NULL };
         int chosen_item = get_menu_selection(confirm_headers, items, 0, 0);
-        ret = (chosen_item == 7);
+        ret = (chosen_item == 1);
     }
     free(confirm_str);
     return ret;
